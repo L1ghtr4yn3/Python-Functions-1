@@ -1,0 +1,7 @@
+def ConeVol(x,y):
+    return (1/3*3.1415926535898*((x)*(x))*y)
+
+
+x = int(input())
+y = int(input())
+print(ConeVol(x,y))
